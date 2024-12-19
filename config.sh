@@ -181,6 +181,10 @@ CONFIG_PACKAGE_luci-app-dockerman=y
 CONFIG_PACKAGE_luci-app-passwall=y
 # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Server is not set
 CONFIG_PACKAGE_luci-app-passwall_Iptables_Transparent_Proxy=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Hysteria=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_SingBox=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_tuic_client=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray=y
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
 CONFIG_PACKAGE_luci-app-ssr-plus=y
